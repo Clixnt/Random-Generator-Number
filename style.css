@@ -1,0 +1,75 @@
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: var(--background-ui-dark);
+}
+* {
+    padding: 0;
+    margin: 0;
+    /* Test Your Fuckng Code ( Ctr + K + C */
+    /* outline: 2px solid blueviolet; */
+}
+:root {
+    --font-OpenSans:"Open Sans", serif;
+    --font-kanit: "Kanit", serif;
+    --font-roboto: "Roboto", serif;
+    --font-orbitron:  "Orbitron", serif;
+
+    --white-500: hwb(0 100% 0%);
+    --blue-400: hsl(195, 53%, 50%);
+    --gray-transparent:rgba(0,0,0,0.4);
+    --background-ui-dark:hsl(225, 6%, 13%);
+    --CssScan-ShadowBox:rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+                        rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+                        rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+                        rgba(0, 0, 0, 0.06) 0px 2px 1px,
+                        rgba(0, 0, 0, 0.09) 0px 4px 2px,
+                        rgba(0, 0, 0, 0.09) 0px 8px 4px,
+                        rgba(0, 0, 0, 0.09) 0px 16px 8px,
+                        rgba(0, 0, 0, 0.09) 0px 32px 16px;;
+}
+
+/* Real Code Stars Here 🗣️🗣️🗣️ */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: var(--blue-400);
+    font-family: var(--font-roboto);
+    box-shadow: var(--CssScan-ShadowBox);
+
+    width: 95%;
+    max-width: 300px;
+    height: 300px;
+}
+.container h1 {
+    font-size: 4rem;
+    width: 70%;
+    max-width: 150px;
+    height: 130px;
+    background-color: var(--white-500);
+    box-shadow: var(--CssScan-ShadowBox);
+    border-radius: 10px;
+    display: grid;
+    place-content: center;
+}
+.container h2 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    background-color: var(--white-500);
+    box-shadow: var(--CssScan-ShadowBox);
+    padding: 10px;
+    border-radius: 10px;
+}
+.container button {
+    width: 70%;
+    max-width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: bolder;
+    box-shadow: var(--CssScan-ShadowBox);
+}
