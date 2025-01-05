@@ -1,2 +1,2 @@
 # Random-Generator-Number
-Random-Generator-Number 1-10
+Random-Number-Generator 1-10
